@@ -10,4 +10,4 @@ for number in range(1 , 101):
 		print("Buzz")
 
 	else:
-		print(number)
+		print(number)	
