@@ -1,13 +1,17 @@
 Exercise 1:
+
 Please write a program which will take in a word from a user and search for that word in the word.txt file.
 
 Example:
+
 If the user enters the word "hello", the program should return the word "hello" if "hello" is in word.txt, otherwise it should return "NOT FOUND".
 
 Exercise 2:
+
 Please write a program which count and print the numbers of each character, from file letters.txt.
 
 Example:
+
 If the following string is given as input from file letters.txt to the program:
 
 abcdefgabc
@@ -15,18 +19,27 @@ abcdefgabc
 Then, the output of the program should be:
 
 a,2
+
 c,2
+
 b,2
+
 e,1
+
 d,1
+
 g,1
+
 f,1
 
 Hints:
+
 Use dict to store key/value pairs.
+
 Use dict.get() method to lookup a key with default value.
 
 Exercise 3:
+
 Write a program that will take in a filename and a shift number, use the Ceasar cipher on the contents of the file and output to a second file with the name "encrypted_file.txt"
 
 
