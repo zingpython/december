@@ -18,13 +18,36 @@ def intToBinary(number):
 
 print( intToBinary(210) )
 
+
+
 def binaryToInt(binary):
+	# #Reverse the string so we can use a for loop going forwards instead of backwards
+	# binary = binary[::-1]
+	# #Create a total variable that will hold the total of the binary number
+	# total = 0
+	# #Create a variable that holds how much to increase the total by on a "1"
+	# increase = 1
+
+	# #FOr each digit in the binary number
+	# for digit in binary:
+	# 	#If the digit is a "1" increase the total by increase
+	# 	if digit == "1":
+	# 		total = total + increase
+
+	# 	#As the last step in the for loop double increase
+	# 	increase = increase * 2
+	# #Return the total of the binary number
+	# return total
 
 	binary = binary[::-1]
 
-	increase = 1
+	total = 0
 
-	for digit in binary:
+	for index in range( len(binary) ):
 
+		if binary[index] == "1":
+			total = total + (2 ** index)
 
-		increase = increase * 2
+	return total
+
+print( binaryToInt("11010010") )
