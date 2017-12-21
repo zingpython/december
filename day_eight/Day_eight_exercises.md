@@ -17,7 +17,7 @@ Create a shopping list program that uses the MVC. This program should track a us
 
 This program should have a menu that has the following options:
 
-	1. Create a note (This should create an item on a shopping list and store it in your dictionary)
+	1. Create a note (This should create an item on a shopping list and store it in your table in the database)
 
 	2. Display list (This should show each item, the id of the item, and if the item is checked off on the list yet.
 
